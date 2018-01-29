@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-clipboard"
-    version="1.1.1">
+    id="cordova-clipboard-monya"
+    version="1.1.6">
 
     <engines>
         <engine name="cordova" version=">=4.0.0" />
@@ -59,6 +59,12 @@
     <!-- Windows uwp -->
     <platform name="windows">
         <js-module src="src/windows/ClipboardProxy.js" name="ClipboardProxy">
+            <merges target="" />
+        </js-module>
+    </platform>
+
+    <platform name="browser">
+        <js-module src="src/browser/clipboardProxy.js" name="ClipboardProxy">
             <merges target="" />
         </js-module>
     </platform>
