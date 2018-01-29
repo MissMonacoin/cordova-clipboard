@@ -14,6 +14,7 @@ require("cordova/exec/proxy").add("Clipboard", {
     s.top=(window.pageYOffset || document.documentElement.scrollTop)+"px"
 
     document.body.appendChild(temp);
+    temp.select()
     temp.setSelectionRange(0, temp.value.length);
 
     var result = document.execCommand('copy');
