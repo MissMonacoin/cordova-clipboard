@@ -1,5 +1,5 @@
 {
-  "name": "cordova-clipboard-monya",
+  "name": "@missmonacoin/cordova-clipboard",
   "version": "1.1.7",
   "description": "Clipboard management plugin for Cordova/PhoneGap that supports iOS, Android, Browser, and WP8",
   "cordova": {
